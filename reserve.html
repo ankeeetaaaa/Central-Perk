@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reserve Table</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		body{
+			background-color: #1c1c1c;
+		}
+		#res{
+    width: 300px;
+    margin: 0 auto;
+    border: 2px;
+    background-color: #1c1c1c;
+    text-align: center;
+    border-radius: 15px;
+		}
+		#butt{
+    font-size: 20px;
+    width: 250px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    cursor: pointer;
+    background-color: #cc2900;
+    color: white;
+  }
+  #butt:hover{
+    text-decoration: underline;
+  }
+  input{
+    font-size: 20px;
+    color: #666666;
+    border: 2px solid #cc2900;
+    border-radius: 5px;
+  }
+  p{
+  	color: #cc2900;
+  	font-size: 20px;
+  }
+  #log{
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+    <img src="https://raw.githubusercontent.com/ankeeetaaaa/Pictures/master/98d5ce3bc2bb0b69b9de444736ac6057.png" class="img-responsive" id="log">
+</div>
+	<div class="container-fluid">
+		<form id="res">
+			<p><b>DATE</b></p>
+			<input type="date" name="date"><br><br>
+			<p><b>GUESTS</b></p>
+			<input type="number" name="num"><br><br>
+			<button type="submit" id="butt">Reserve</button>
+		</form>
+	</div>
+
+</body>
+</html>
